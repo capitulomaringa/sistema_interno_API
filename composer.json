@@ -1,0 +1,23 @@
+{
+	"require": {
+		"monolog/monolog": "^1.24",
+		"slim/slim": "3.*",
+		"firebase/php-jwt": "5.*",
+		"phpunit/phpunit": "^8",
+		"tuupola/slim-jwt-auth": "<3",
+		"ext-pdo": "*",
+		"ext-json": "*"
+	},
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": { "": "src/" },
+		"files": [
+
+		]
+	},
+	"config": {
+		"platform": {
+			"php": "7.2"
+		}
+	}
+}
